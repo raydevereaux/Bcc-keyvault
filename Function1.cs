@@ -22,7 +22,7 @@ namespace Bcc_KeyVault
         {
             string vaultBaseUrl = System.Environment.GetEnvironmentVariable("VaultBaseUrl", EnvironmentVariableTarget.Process);
             string bccAccessKey = req.Headers["bcc-access-key"];
-            string build = "07/03/2019 07.20.40.287";
+            string build = "07/11/2019 14.43.00.829";
 
             ObjectResult resp;
             string mode = System.Environment.GetEnvironmentVariable("Mode", EnvironmentVariableTarget.Process);
